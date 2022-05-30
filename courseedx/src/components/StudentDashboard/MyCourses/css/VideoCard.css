@@ -1,0 +1,53 @@
+.VideoCard__component{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 8px;
+    background: rgb(235, 243, 225);
+}
+
+@media screen and (max-width: 800px) {
+    .VideoCard__component{
+        flex-direction: column;
+    }
+}
+
+.VideoCard__component:hover{
+    background: rgb(67, 248, 203);
+}
+
+.VideoCard__component div{
+    margin: 2px;
+    padding: 2px;
+}
+
+.videoCard__text {
+    flex: 0.4;
+}
+
+.videoCard__videoThubmnail {
+    flex: 0.1;
+}
+
+.video_card__thumbnail{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    flex: 2;
+}
+
+.videoCard__buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0.4;
+}
+
+.videoCard__buttons  button {
+    margin: 2px !important;
+}

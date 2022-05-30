@@ -1,0 +1,30 @@
+.upload_video_form_group{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.upload_video__input{
+    margin: 5px !important;
+    width: 20rem;
+}
+
+.upload_video__select{
+    margin: 5px !important;
+    width: 20rem !important;
+    height: 40px;
+}
+
+.upload_video__headings{
+    font-size: 17px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 6px;
+    padding: 5px;
+}
+
+.upload__video__progress_div{
+    padding: 10px;
+    margin: 10px;
+    align-self: center;
+}

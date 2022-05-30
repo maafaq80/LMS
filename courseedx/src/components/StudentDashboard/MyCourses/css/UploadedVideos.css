@@ -1,0 +1,23 @@
+.UploadedVideos__component{
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center;
+    flex: 0.5;
+}
+
+.UploadedVideos_divide_content{
+    display: flex;
+}
+
+.UploadedVideos__video{
+    flex: 0.5;
+}
+
+
+@media screen and (max-width: 800px) {
+    .UploadedVideos_divide_content{
+        flex-direction: column-reverse;
+    }
+  }

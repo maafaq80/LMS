@@ -1,0 +1,33 @@
+.sidebar__icon:active{
+    background-color: rgb(205, 240, 200);
+}
+
+.sidebar__navbar{
+    margin-left: 20px;
+}
+
+
+.sidebar__ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+.sidebar__ul li{
+    list-style: none;
+    margin: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 7px;
+    color: white;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+}
+
+.sidebar__ul li:hover{
+    background-color: rgb(91, 226, 49);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
